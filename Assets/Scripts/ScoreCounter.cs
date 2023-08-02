@@ -22,7 +22,7 @@ public class ScoreCounter : MonoBehaviour
     {
         if (BallController.dead)
         {
-            text.text = ((int)(score)).ToString() + "\nGame Over\nESC to reset";
+            text.text = ((int)(score)).ToString() + "\nGame Over\nSPACE to reset";
 
             return;
         }
